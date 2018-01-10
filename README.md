@@ -94,7 +94,7 @@ It's behavior is same as setting `dp_autoCollapse` property in code.
 
 Cocoapods: 
 ```
-pod search UIView+DPCollapsibleConstraints
+pod search ZZ_UIView+DPCollapsibleConstraints
 ```
 
 # License
