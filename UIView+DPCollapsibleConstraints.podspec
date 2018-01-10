@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-  s.name         = "UIView+FDCollapsibleConstraints"
+  s.name         = "UIView+DPCollapsibleConstraints"
   s.version      = "1.1"
   s.summary      = "Collapsible auto layout constraints."
   s.description  = "Collapse a view with its selected auto layout constraints in interface builder."
