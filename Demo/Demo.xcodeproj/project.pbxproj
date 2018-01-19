@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B36C5542011A51300417852 /* UIView+DPCollapsibleConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B36C54F2011A51300417852 /* UIView+DPCollapsibleConstraints.m */; };
+		1B36C5552011A51300417852 /* UIView+ZZAligmentRectInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B36C5522011A51300417852 /* UIView+ZZAligmentRectInsets.m */; };
 		48F3CBB41AE62255008CCACA /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F3CBB31AE62255008CCACA /* UITableView+FDTemplateLayoutCell.m */; };
 		48F3CBB61AE6253A008CCACA /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 48F3CBB51AE6253A008CCACA /* data.json */; };
 		48F3CBCE1AE738D3008CCACA /* FDListEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F3CBC81AE738D3008CCACA /* FDListEntity.m */; };
@@ -18,7 +20,6 @@
 		4A40B0A21ADCE7620018D61D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A40B0A11ADCE7620018D61D /* Images.xcassets */; };
 		4A40B0A51ADCE7620018D61D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A40B0A31ADCE7620018D61D /* LaunchScreen.xib */; };
 		4A40B0C81ADCE8120018D61D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A40B0C71ADCE8120018D61D /* Main.storyboard */; };
-		C4140E001D2DFE76001B2894 /* UIView+DPCollapsibleConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = C4140DFF1D2DFE76001B2894 /* UIView+DPCollapsibleConstraints.m */; };
 		C4AD7A9C1D2BA0CC00C822E6 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AD7A841D2BA0CC00C822E6 /* MASCompositeConstraint.m */; };
 		C4AD7A9D1D2BA0CC00C822E6 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AD7A871D2BA0CC00C822E6 /* MASConstraint.m */; };
 		C4AD7A9E1D2BA0CC00C822E6 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AD7A891D2BA0CC00C822E6 /* MASConstraintMaker.m */; };
@@ -32,6 +33,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B36C54F2011A51300417852 /* UIView+DPCollapsibleConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DPCollapsibleConstraints.m"; sourceTree = "<group>"; };
+		1B36C5502011A51300417852 /* UIView+DPCollapsibleConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DPCollapsibleConstraints.h"; sourceTree = "<group>"; };
+		1B36C5522011A51300417852 /* UIView+ZZAligmentRectInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZZAligmentRectInsets.m"; sourceTree = "<group>"; };
+		1B36C5532011A51300417852 /* UIView+ZZAligmentRectInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZZAligmentRectInsets.h"; sourceTree = "<group>"; };
 		48F3CBB21AE62255008CCACA /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
 		48F3CBB31AE62255008CCACA /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
 		48F3CBB51AE6253A008CCACA /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
@@ -51,8 +56,6 @@
 		4A40B0A11ADCE7620018D61D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4A40B0A41ADCE7620018D61D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4A40B0C71ADCE8120018D61D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		C4140DFE1D2DFE76001B2894 /* UIView+DPCollapsibleConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DPCollapsibleConstraints.h"; sourceTree = "<group>"; };
-		C4140DFF1D2DFE76001B2894 /* UIView+DPCollapsibleConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DPCollapsibleConstraints.m"; sourceTree = "<group>"; };
 		C4AD7A831D2BA0CC00C822E6 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		C4AD7A841D2BA0CC00C822E6 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		C4AD7A851D2BA0CC00C822E6 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -91,6 +94,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B36C54E2011A51300417852 /* DPCollapsibleConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				1B36C54F2011A51300417852 /* UIView+DPCollapsibleConstraints.m */,
+				1B36C5502011A51300417852 /* UIView+DPCollapsibleConstraints.h */,
+			);
+			name = DPCollapsibleConstraints;
+			path = ../../Classes/DPCollapsibleConstraints;
+			sourceTree = "<group>";
+		};
+		1B36C5512011A51300417852 /* ZZAligmentRectInsets */ = {
+			isa = PBXGroup;
+			children = (
+				1B36C5532011A51300417852 /* UIView+ZZAligmentRectInsets.h */,
+				1B36C5522011A51300417852 /* UIView+ZZAligmentRectInsets.m */,
+			);
+			name = ZZAligmentRectInsets;
+			path = ../../Classes/ZZAligmentRectInsets;
+			sourceTree = "<group>";
+		};
 		48F3CBB11AE62255008CCACA /* UITableView+FDTemplateLayoutCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,16 +145,6 @@
 			path = "View Demo";
 			sourceTree = "<group>";
 		};
-		48FC0BF21AE20ED500ECA845 /* DPCollapsibleConstraints */ = {
-			isa = PBXGroup;
-			children = (
-				C4140DFE1D2DFE76001B2894 /* UIView+DPCollapsibleConstraints.h */,
-				C4140DFF1D2DFE76001B2894 /* UIView+DPCollapsibleConstraints.m */,
-			);
-			name = DPCollapsibleConstraints;
-			path = ../../Classes;
-			sourceTree = "<group>";
-		};
 		4A40B0881ADCE7620018D61D = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +168,8 @@
 				48F3CBC61AE738D3008CCACA /* Cell Demo */,
 				48F3CBCD1AE738D3008CCACA /* View Demo */,
 				48F3CBB11AE62255008CCACA /* UITableView+FDTemplateLayoutCell */,
-				48FC0BF21AE20ED500ECA845 /* DPCollapsibleConstraints */,
+				1B36C54E2011A51300417852 /* DPCollapsibleConstraints */,
+				1B36C5512011A51300417852 /* ZZAligmentRectInsets */,
 				4A40B0C71ADCE8120018D61D /* Main.storyboard */,
 				4A40B0981ADCE7620018D61D /* FDAppDelegate.h */,
 				4A40B0991ADCE7620018D61D /* FDAppDelegate.m */,
@@ -290,14 +304,15 @@
 				C4AD7AA31D2BA0CC00C822E6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				C4AD7A9C1D2BA0CC00C822E6 /* MASCompositeConstraint.m in Sources */,
 				4A40B09A1ADCE7620018D61D /* FDAppDelegate.m in Sources */,
+				1B36C5542011A51300417852 /* UIView+DPCollapsibleConstraints.m in Sources */,
 				4A40B0971ADCE7620018D61D /* main.m in Sources */,
+				1B36C5552011A51300417852 /* UIView+ZZAligmentRectInsets.m in Sources */,
 				48F3CBD31AE738F9008CCACA /* FDViewController.m in Sources */,
 				C4AD7A9E1D2BA0CC00C822E6 /* MASConstraintMaker.m in Sources */,
 				C4AD7AA51D2BA0CC00C822E6 /* ViewController+MASAdditions.m in Sources */,
 				C4AD7AA11D2BA0CC00C822E6 /* MASViewConstraint.m in Sources */,
 				48F3CBCE1AE738D3008CCACA /* FDListEntity.m in Sources */,
 				C4AD7AA01D2BA0CC00C822E6 /* MASViewAttribute.m in Sources */,
-				C4140E001D2DFE76001B2894 /* UIView+DPCollapsibleConstraints.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

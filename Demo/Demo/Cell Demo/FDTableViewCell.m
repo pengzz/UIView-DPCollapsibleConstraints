@@ -35,12 +35,12 @@
         self.contentLabel.dp_autoCollapse   = YES;
         self.contentLabel.dp_NSLayoutAttributes = @[@(NSLayoutAttributeTop)];
 
-        self.thumbImageView.dp_autoCollapse = YES;
-        self.thumbImageView.dp_NSLayoutAttributes = @[@(NSLayoutAttributeTop),@(NSLayoutAttributeBottom)];
-
         self.audioBubble.dp_EnabelManualCollapsed = YES;
         self.audioBubble.dp_NSLayoutAttributes = @[@(NSLayoutAttributeTop),@(NSLayoutAttributeHeight)];
 
+        self.thumbImageView.dp_autoCollapse = YES;
+        self.thumbImageView.dp_NSLayoutAttributes = @[@(NSLayoutAttributeTop),@(NSLayoutAttributeBottom)];
+        
         [self addChildSubViews];
         [self addChildConstraint];
     }
