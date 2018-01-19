@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #s.source = { :git => "https://github.com/depaba/UIView-DPCollapsibleConstraints.git", :branch => 'master', :commit => "9ed20f4" }
 s.source = { :git => "https://github.com/pengzz/UIView-DPCollapsibleConstraints.git", :branch => 'pzz', :tag => s.version }
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source_files  = "Classes/*.{h,m}"
+  s.source_files  = "Classes/*/*.{h,m}"
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.requires_arc = true
 end
